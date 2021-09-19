@@ -1,0 +1,189 @@
+header, nav, section, article, figure, figcaption, aside, footer
+{
+    display: block;
+}
+ 
+body
+{
+    color: #6c3ea8;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+ 
+h2{
+    font-weight: bold !important;
+}
+.wrapper
+{
+    border: 2px solid black;
+    background-color: rgb(246, 234, 255);
+}
+ 
+header
+{
+    height: 160px;
+    background-image: url(https://i.pinimg.com/originals/73/d7/39/73d739ce3e41947b0d9ca63ca889248e.jpg);
+   
+}
+ 
+h1
+{
+    color: antiquewhite;
+    font-weight: 1000;
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+    font-size: 500% !important;
+    padding-left: 480px;
+}
+ 
+nav, footer
+{
+    clear: both;
+    background-color: #442272;
+    color: antiquewhite;
+    height: 35px;
+}
+ 
+nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+nav ul
+{
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+ 
+nav li
+{
+    display: inline;
+    margin-right: 40px;
+}
+ 
+nav a{
+    padding: 10px;
+    color:antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: antiquewhite;
+    color: #8155bb;
+    font-weight: bold;
+}
+
+iframe {
+    padding: 20px 0px 0px 20px;
+}
+ 
+section.courses
+{
+    float: left;
+    width: 1150px;
+}
+
+
+.judul{
+    padding: 20px 0px 0px 20px;
+    font-size: 200% !important;
+    color: #331a53 !important;
+}
+#katering p{
+    padding: 0px 0px 30px 20px;
+}
+article
+{
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+ 
+hgroup
+{
+    margin-top: 40px;
+}
+ 
+figure
+{
+    float: left;
+    width: 300px;
+    height: 230px;
+    padding: 5px;
+    margin: 20px;
+    background-color: #442272;
+    border: 1px solid antiquewhite;
+    color: antiquewhite;
+    font-weight: bold;
+}
+ 
+figure img
+{
+    width: 300px;
+    height: 200px;
+}
+ 
+figcaption
+{
+    font-size: 100%;
+    text-align: center;
+}
+ 
+aside
+{
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+ 
+aside section a
+{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #baa6c5;
+}
+ 
+aside section a:hover
+{
+    color: antiquewhite;
+    background-color: #965de2;
+}
+ 
+a
+{
+    color: #a474e2;
+    text-decoration: none;
+}
+
+ 
+h2
+{
+    margin: 10px, 0px, 5px, 0px;
+    padding: 0px;
+}
+ 
+h3
+{
+    margin: 0px, 0px, 10px, 0px;
+    color: #a474e2;
+    font-weight: bold;
+}
+ 
+aside h2
+{
+    padding: 30px 0px 10px 0px;
+    color: #6c3ea8;
+    font-weight: bold;
+}
+ 
+button {
+    background-color: #965de2;
+    color: antiquewhite;
+}
+footer
+{
+    font-size: 80%;
+    padding: 15px 0px 0px 10px;
+}
